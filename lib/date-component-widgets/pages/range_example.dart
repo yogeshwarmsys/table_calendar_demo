@@ -115,7 +115,7 @@ class _TableRangeExampleState extends State<TableRangeExample> {
           ),
           TableCalendar(
             daysOfWeekVisible: true,
-            currentDay: DateTime.now(),
+            //currentDay: DateTime.now(),
             availableGestures: AvailableGestures.all,
             headerStyle: const HeaderStyle(
                 headerPadding: EdgeInsets.all(10.0),
